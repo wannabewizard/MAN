@@ -6,7 +6,7 @@ import { BaseStyles } from 'rimble-ui';
 
 // import drizzle functions and contract artifact
 import { Drizzle, generateStore } from "@drizzle/store";
-import TestMinter from "./abis/TestMinter.json";
+import TestMinter from "./contracts/TestMinter.json";
 
 // let drizzle know what contracts we want and how to access our test blockchain
 const options = {
